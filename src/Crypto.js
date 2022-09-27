@@ -10,10 +10,10 @@ import './styles/Crypto.css'
 
 
 const {REACT_APP_API_KEY , REACT_APP_SECRET_KEY} = process.env
-const apiKey = process.env.REACT_APP_API_KEY
-const secretKey = process.env.REACT_APP_SECRET_KEY
-// const apiKey = "PKJ25VIKNH5KJT9BQIEJ"
-// const secretKey = "xJ9gYs1L2Ulte3LyTysf3w1pjV0QEEJkhGkBkcrZ"
+// const apiKey = process.env.REACT_APP_API_KEY
+// const secretKey = process.env.REACT_APP_SECRET_KEY
+const apiKey = "PKJ25VIKNH5KJT9BQIEJ"
+const secretKey = "xJ9gYs1L2Ulte3LyTysf3w1pjV0QEEJkhGkBkcrZ"
 const auth = {"action": "auth", "key": `${apiKey}`, "secret": `${secretKey}`};
 const crypto_url = 'wss://stream.data.alpaca.markets/v1beta2/crypto';
 
@@ -54,7 +54,7 @@ export const Crypto = () => {
         // setState(JSON.parse(data)[0].bp)  
                                      
     }) 
-    wss.addEventListener('close', (data)=>{
+    wss.addEventListener('close', data =>{
       console.log(wss.readyState, 'READYSTATE 3...')
       // wss.close()
       console.log('WSS disconnected, NOW WSS READY TO RE-connect', cryptoName, subscription)
