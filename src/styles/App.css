@@ -10,6 +10,7 @@ html{
 }
 
 body{
+  touch-action: pan-y;
   /* width: 99vw; */
   width: 96vw;
   /* width: 100%; */
