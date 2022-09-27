@@ -13,7 +13,7 @@ export const MainRoutes = () =>{
     const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
-        console.log('he')
+        // console.log('he')
         setIsOpen(!isOpen)
     }
     return (
