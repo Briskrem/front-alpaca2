@@ -10,7 +10,6 @@ import './styles/Crypto.css'
 
 
 const {REACT_APP_API_KEY , REACT_APP_SECRET_KEY} = process.env
-console.log(process.env, REACT_APP_API_KEY , REACT_APP_SECRET_KEY,  '^^^^^^^^^^^^^^^')
 const apiKey = process.env.REACT_APP_API_KEY
 const secretKey = process.env.REACT_APP_SECRET_KEY
 // const apiKey = "PKJ25VIKNH5KJT9BQIEJ"
@@ -50,7 +49,7 @@ export const Crypto = () => {
     })
     // console.log('chesse')
     wss.addEventListener('message', ({data})=>{
-        // console.log(JSON.parse(data)[0])
+        console.log(JSON.parse(data)[0])
         setCryptoData(JSON.parse(data)[0])
         // setState(JSON.parse(data)[0].bp)  
                                      
