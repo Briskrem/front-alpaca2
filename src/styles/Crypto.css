@@ -1,0 +1,258 @@
+@media all and (max-width: 520px){
+
+    .crypto-body{
+        overflow: hidden;
+        height: auto;
+        width: 98vw; 
+        /* width: 100%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Itim', cursive;
+        font-size: 1.5rem;
+
+    }
+    .crypto-data{
+        width: 90vw;
+        border: .5px solid yellow;
+        border-radius: 5px;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        display: grid;
+        grid-template-rows: .1fr .5fr .5fr;
+        align-content:flex-start;
+        justify-items: center ;
+        flex-direction: column;
+    }
+    .crypto-name{
+        margin-top: 3.5rem;
+        color: yellow;
+        height: 3rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        
+    }
+    .price-container{
+        margin-bottom: 2rem;
+        color: yellow;
+        height: 2.5rem;
+        width: 50vw;
+        border-top: 1px solid yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .CryptoForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .CryptoForm input{
+        border: 0;
+        outline: none;
+        text-align: center;
+        width: 50vw;
+        height: 2rem;
+        border-radius: 20rem;
+        margin-top: .5rem;
+   }
+   .CryptoForm button{
+        color: lime;
+        margin-top: 1.5rem;
+        height: 5rem;
+        width: 5rem;
+        font-size: 1.1rem;
+        background-color: rgba(0,0,0,.6);
+        border: 0;
+        box-shadow: 0 0 10px black,
+        0 0 50px black,
+        0 0 100px black,
+        0 0 100px black;
+        border-radius: 50%;
+        cursor: pointer; 
+        transition: .2s ;
+   }
+   .CryptoForm button:hover{
+    background-color: rgba(0,0,0,.7);
+    }
+    .price-container{
+        color: yellow;
+        height: 2.5rem;
+        width: 50vw;
+        border-top: 1px solid yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+}
+@media all and (orientation: landscape) and (max-width: 920px){
+    .crypto-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .crypto-data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Itim', cursive;
+    }
+    .CryptoForm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .CryptoForm input{
+        border: 0;
+        outline: none;
+        text-align: center;
+        width: 50vw;
+        height: 2rem;
+        border-radius: 20rem;
+        margin-top: .5rem;
+        margin-bottom: 1.5rem;
+    }
+    .CryptoForm button{
+        color: lime;
+        margin-bottom: 3.5rem;
+        height: 5rem;
+        width: 5rem;
+        font-size: 1.1rem;
+        background-color: rgba(0,0,0,.6);
+        border: 0;
+        box-shadow: 0 0 10px black,
+        0 0 50px black,
+        0 0 100px black,
+        0 0 100px black;
+        border-radius: 50%;
+        cursor: pointer; 
+        transition: .2s ;
+    }
+    .CryptoForm button:hover{
+    background-color: rgba(0,0,0,.7);
+    }
+    .crypto-name{
+        font-size: 2rem;
+        color: yellow;
+        height: 3rem;
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin-bottom: .5rem;
+    }
+    .price-container{
+        margin-bottom: 3rem;
+        color: yellow;
+        height: 2.5rem;
+        width: 50vw;
+        border-top: 1px solid yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .crypto-data{
+        width: 90vw;
+        border: .5px solid yellow;
+        border-radius: 5px;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        display: grid;
+        grid-template-rows: .1fr 2fr .5fr;
+        align-content:flex-start;
+        justify-items: center ;
+        flex-direction: column;
+    }
+}
+.crypto-body{
+    overflow: hidden;
+    height: auto;
+    height: 90%;
+    width: 96vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Itim', cursive;
+    font-size: 1.5rem;
+
+}
+
+.crypto-data{
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Itim', cursive;
+    border: .5px solid yellow;
+}
+.CryptoForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.CryptoForm input{
+    border: 0;
+    outline: none;
+    text-align: center;
+    width: 50vw;
+    height: 2rem;
+    border-radius: 20rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+.CryptoForm button{
+    color: lime;
+    margin-bottom: 3.5rem;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.1rem;
+    background-color: rgba(0,0,0,.6);
+    border: 0;
+    box-shadow: 0 0 10px black,
+    0 0 50px black,
+    0 0 100px black,
+    0 0 100px black;
+    border-radius: 50%;
+    cursor: pointer; 
+    transition: .2s ;
+}
+.CryptoForm button:hover{
+background-color: rgba(0,0,0,.7);
+}
+.crypto-name{
+    font-size: 2rem;
+    color: yellow;
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.price-container{
+    margin-bottom: 3rem;
+    color: yellow;
+    height: 2.5rem;
+    width: 50vw;
+    border-top: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

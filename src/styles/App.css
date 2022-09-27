@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+html{
+  font-size: 15px;
+  font-family: 'Itim', cursive;
+}
+
+body{
+  /* width: 99vw; */
+  width: 96vw;
+  /* width: 100%; */
+  font-family: 'Itim', cursive;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('/public/pics/bg.jpg');
+  background-position: center;
+  animation: move 100s ease-in infinite alternate;
+  animation-delay: 7s;
+  overflow-x: hidden;
+ 
+}
+/* minimized desktop screen creates h-bar so it needs 96vw, but it creates gap in mobile so thats when it needs 99vw */
+@media all and (max-width: 620px){
+  body{
+    width: 99vw;
+  }
+}
+
+@keyframes move{
+  0%{
+    background-position: center;
+  }
+  100%{
+    background-position: 10% 85%;
+  }
+}
+
+.MainRouteContainer{
+  
+  /* width: 100%; */
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 100%;
+  width: 100vw; 
+}

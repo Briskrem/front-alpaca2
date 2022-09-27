@@ -1,0 +1,43 @@
+.ApexChartContainer{
+    height: 20rem;
+    /* overflow-x: hidden; */
+    /* width: 16rem; */
+    /* width: 18.5rem; */
+    width: 80vw;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    background-color: rgba(23,23,23);
+    margin-bottom: 6rem;
+    /* margin-bottom: 8rem; */
+    /* border-radius: 8px; */
+}
+.cryptoButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    
+}
+.cryptoButtonContainer button{
+    font-family: 'Itim', cursive;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    color: yellow;
+    background-color: rgba(0,0,0,.6 );
+    border: .5px solid black;
+    box-shadow: 0 0 10px black,
+    0 0 50px black,
+    0 0 100px black,
+    0 0 100px black;
+    transition: .5s ease;
+}
+.cryptoButtonContainer button:hover{
+    transform: scale(.8);
+    background-color: rgba(23,23,23 );
+    border: .5px solid yellow;
+    box-shadow: 0 0 10px yellow,
+    0 0 50px yellow,
+    0 0 100px black,
+    0 0 100px black;
+}
