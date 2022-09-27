@@ -16,7 +16,7 @@ export const CryptoForm = ({getCryptoName}) => {
             [name]: value
         }))
     }
-
+    
     const handleSubmit = (e) => {
         e.preventDefault()
         // console.log('anything')
