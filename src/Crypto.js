@@ -10,10 +10,13 @@ import './styles/Crypto.css'
 
 
 const {REACT_APP_API_KEY , REACT_APP_SECRET_KEY} = process.env
-// const apiKey = process.env.REACT_APP_API_KEY
-// const secretKey = process.env.REACT_APP_SECRET_KEY
-const apiKey = "PKJ25VIKNH5KJT9BQIEJ"
-const secretKey = "xJ9gYs1L2Ulte3LyTysf3w1pjV0QEEJkhGkBkcrZ"
+const apiKey = process.env.REACT_APP_API_KEY
+const secretKey = process.env.REACT_APP_SECRET_KEY
+console.log(process.env, '$$$$$$$$$$$$$$$$$')
+// const apiKey = api_key
+
+// const apiKey = "PKJ25VIKNH5KJT9BQIEJ"
+// const secretKey = "xJ9gYs1L2Ulte3LyTysf3w1pjV0QEEJkhGkBkcrZ"
 const auth = {"action": "auth", "key": `${apiKey}`, "secret": `${secretKey}`};
 const crypto_url = 'wss://stream.data.alpaca.markets/v1beta2/crypto';
 
