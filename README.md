@@ -1,3 +1,9 @@
+#alpaca api 
+#apex-charts 
+#websockets
+#axios
+#vercel
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
